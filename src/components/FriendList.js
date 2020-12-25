@@ -3,12 +3,12 @@ import Friend from "./Friend";
 
 export default function FriendList({friends}) {
   return <ul className="friend-list">
-      {friends.map(friend =>
-          <li className="item" key={friend.id}>
+      {friends.map(({id, avatar, name, isOnline}) =>
+          <li className="item" key={id}>
           <Friend
-              avatar={friend.avatar}
-              name={friend.name}
-              isOnline={friend.isOnline}
+              avatar={avatar}
+              name={name}
+              isOnline={isOnline}
           />
           </li>
             )}
