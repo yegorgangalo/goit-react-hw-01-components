@@ -32,11 +32,11 @@ export default function Profile(props) {
 };
 
 Profile.propTypes = {
-    name: PropTypes.string,
-    tag: PropTypes.string,
+    name: PropTypes.string.isRequired,
+    tag: PropTypes.string.isRequired,
     location: PropTypes.string,
-    avatar: PropTypes.string,
-    followers: PropTypes.number,
-    views: PropTypes.number,
-    likes: PropTypes.number,
+    avatar: PropTypes.string.isRequired,
+    followers: PropTypes.number.isRequired,
+    views: PropTypes.number.isRequired,
+    likes: PropTypes.number.isRequired,
 }
