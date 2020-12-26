@@ -1,7 +1,9 @@
 [
-  { "id": "id-1", "label": ".docx", "percentage": 22 },
+  { "id": "id-1", "label": ".docx", "percentage": 12 },
   { "id": "id-2", "label": ".pdf", "percentage": 4 },
   { "id": "id-3", "label": ".mp3", "percentage": 17 },
-  { "id": "id-4", "label": ".psd", "percentage": 47 },
-  { "id": "id-5", "label": ".pdf", "percentage": 10 }
+  { "id": "id-4", "label": ".psd", "percentage": 37 },
+  { "id": "id-5", "label": ".tiff", "percentage": 10 },
+  { "id": "id-6", "label": ".jpeg", "percentage": 5 },
+  { "id": "id-7", "label": ".webp", "percentage": 15 }
 ]
