@@ -1,7 +1,7 @@
 .profile {
   margin-bottom: 30px;
   max-width: 240px;
-  box-shadow: 0px 1px 5px 0px #000000;
+  box-shadow: 0px 1px 5px 0px #b6b6b6;
   border: 1px solid rgb(158, 158, 158);
   border-radius: 5px;
 }
@@ -17,6 +17,7 @@
   margin-bottom: 30px;
   width: 50%;
   border-radius: 50%;
+  background-color: rgb(197, 197, 197);
 }
 
 .name {
