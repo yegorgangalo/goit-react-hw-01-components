@@ -2,18 +2,3 @@
   width: 240px;
   margin-bottom: 30px;
 }
-
-.item {
-  display: flex;
-  align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  box-shadow: 0px 1px 5px 0px #b6b6b6;
-  border-radius: 2px;
-}
-
-.item:not(:last-child) {
-  margin-bottom: 15px;
-}
